@@ -6,17 +6,20 @@
   <link href="./css/styles.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/49b40112f4.js" crossorigin="anonymous"></script>
+  <title>Trendyol</title>
 </head>
 <body>
+  
 <div class="md:container md:mx-auto pb-12 pr-12 pl-12">
   <!----->
   <!----->
-  <div class="flex justify-end space-x-8 items-center py-2">
-    <a href="#" class="text-xs text-gray-500 hover:text-black">Yardım & Destek</a>
+  <div class="md:container md:mx-auto pb-12 pr-12 pl-1">
+    <div class="flex justify-end space-x-8 items-center py-2">
+    <a href="https://www.example.com" class="text-xs text-gray-500 hover:text-black">Yardım & Destek</a>
     <a href="#" class="text-xs text-gray-500 hover:text-black">Hakkımızda</a>
     <a href="#" class="text-xs text-gray-500 hover:text-black">Trendyol'da Satış Yap</a>
     <a href="#" class="text-xs text-gray-500 hover:text-black">İndirim Kuponlarım</a>
-  </div>
+    </div>
   <!----->
   <!----->
   <header class="flex justify-between items-center space-x-44">
@@ -25,7 +28,10 @@
     <!----->
     <div class="flex-1 justify-center items-center">
       <form action="">
-        <input type="text" class="w-96 h-6" id="" placeholder="Aradığınız ürün, kategori veya markayı yazınız"><i class="fa-solid fa-magnifying-glass mr-10"></i>
+        <div class="w-96 flex relative">
+          <input type="text" class="w-96 h-6 " id="" placeholder="Aradığınız ürün, kategori veya markayı yazınız ">
+          <i class="fa-solid fa-magnifying-glass  absolute bottom-1 right-2"></i>
+        </div>
       </form>
     </div>
     <!----->
@@ -100,7 +106,7 @@
   <!----->
   <menu class="flex justify-between text-center mt-16">
     <div class="w-96 h-16 bg-green-50 py-5 rounded ">
-      <a href="#" class="text-green-600 font-bold text-xl">En Çok Satanlar</a>
+      <a class='text-green-600 font-bold text-xl' href="link.html">En Çok Satanlar</a>
     </div>
     <div class="w-96 h-16 bg-yellow-50 py-5 rounded">
       <a href="#" class="text-yellow-600 font-bold text-xl">En Çok Öne Çıkanlar</a>
@@ -790,9 +796,10 @@
     </div>
     </div>
   </main>
+</div>
   <!----->
   <!----->
-  <footer class="container mx-auto mt-20"> 
+  <footer class="container mx-auto mt-20 "> 
     <a href="" class="">
       <b>Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!</b><br><br>
       <p>Türkiye’nin önemli online alışveriş adreslerinden biri olan Trendyol, 2010 yılında modayı herkes için ulaşılabilir kılmak amacıyla kuruldu. O günden bugüne giyimden aksesuara, ayakkabıdan kozmetiğe kadar pek çok ürünle beğeni kazanmaya devam ediyor. Trendyol hem farklı zevklere hem de bütçelere hitap eder. Kolay ve güvenli bir deneyim sunar. Üst ve alt giyim kategorilerinde sayısız model üretir ve sunar. Bu koleksiyonlar uygun fiyat avantajıyla sunulur. Her mevsime uygun ürün seçenekleri bulunur. Kışlık seçimlerde kazak, mont, hırka, ceket gibi ürünler baskınken yaz kombinlerinde renkli ve sade tişört modelleri sıklıkla kullanılır. İnce kumaştan üretilen jeanlar ve kapriler de yine yaz ayları için ideal bir seçimler olarak değerlendirilir. Yaz tatili için de bikini takımlarından satın alabilirsiniz.
@@ -813,7 +820,7 @@
     <hr class="font-bold">
     <!----->
     <!----->
-    <div class="flex mt-16  mx-auto p-5 pl-20 ">
+    <div class="flex mt-16  mx-auto p-5 pl-2 ">
     <div class="flex flex-col w-1/2 mb-10 mr-32">
       <a href="" class="text-lg font-bold">Popüler Marka ve Mağazalar</a>
       <div class="flex space-x-20 mt-5">
@@ -931,7 +938,7 @@
   <!----->
   <!----->
 </div>
-<footer class="bg-black">
+<footer class="bg-black w-full">
   <div class="flex justify-between text-white w-3/5 mx-auto pt-10 ">
     <div class="flex flex-col">
       <b class="text-3xl font-normal hover:underline">Trendyol</b><br>
